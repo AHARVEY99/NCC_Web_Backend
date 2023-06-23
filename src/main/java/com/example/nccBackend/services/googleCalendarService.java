@@ -12,7 +12,7 @@ import java.net.URL;
 public class googleCalendarService {
 
     public calendarEvent getVerseOfTheDay() throws IOException {
-        URL url = new URL("https://www.googleapis.com/calendar/v3/calendars/euivajuod3cpk9vcigr9juvo8s@group.calendar.google.com/events?key=AIzaSyDHlhT30ksmGeflzVxBgLzNdkhHIZrs55o");
+        URL url = new URL("https://www.googleapis.com/calendar/v3/calendars/euivajuod3cpk9vcigr9juvo8s@group.calendar.google.com/events?key=");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
 
