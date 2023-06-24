@@ -36,6 +36,20 @@
 			<artifactId>spring-web</artifactId>
 			<version>6.0.9</version>
 		</dependency>
+		<dependency>
+			<groupId>net.minidev</groupId>
+			<artifactId>json-smart</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>top.jfunc.json</groupId>
+			<artifactId>Json-Gson</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>top.jfunc.json</groupId>
+			<artifactId>Json-Gson</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
