@@ -20,7 +20,7 @@ import java.util.List;
 public class googleCalendarService {
 
     public StringBuffer getCalendarEvents() throws IOException {
-        URL url = new URL("https://www.googleapis.com/calendar/v3/calendars/euivajuod3cpk9vcigr9juvo8s@group.calendar.google.com/events?key=");
+        URL url = new URL("https://www.googleapis.com/calendar/v3/calendars/euivajuod3cpk9vcigr9juvo8s@group.calendar.google.com/events?");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
 //        con.setRequestProperty("Content-Type", "application/json");
